@@ -12,3 +12,12 @@
 # Mr. Anant needs you to help him find the Captain's room number.
 # The total number of tourists or the total number of groups of families is not known to you.
 # You only know the value of  and the room number list.
+
+K = int(input())
+n = list(map(int,input().split()))
+d = []
+for i in n:
+    if n.count(i)> 1 and i not in d:
+        d.append(i)
+print(d)
+    

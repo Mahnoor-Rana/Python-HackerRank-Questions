@@ -15,9 +15,9 @@
 
 K = int(input())
 n = list(map(int,input().split()))
-d = []
-for i in n:
-    if n.count(i)> 1 and i not in d:
-        d.append(i)
-print(d)
+
+count = Counter(n)
+unique = [k for k ,v in count.items() if v ==1]
+print(unique)
     
+

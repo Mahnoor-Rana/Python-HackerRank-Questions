@@ -18,6 +18,6 @@ n = list(map(int,input().split()))
 
 count = Counter(n)
 unique = [k for k ,v in count.items() if v ==1]
-print(unique)
+print(unique[0])
     
 

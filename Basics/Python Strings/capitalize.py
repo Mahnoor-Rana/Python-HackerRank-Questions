@@ -1,6 +1,4 @@
-
-
-#!/bin/python3
+#   Write 
 
 import math
 import os
@@ -8,10 +6,10 @@ import random
 import re
 import sys
 
-# Complete the solve function below.
+import string
+
 def solve(s):
-    s=  s.title()
-    return s
+    return string.capwords(s, sep=' ')
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

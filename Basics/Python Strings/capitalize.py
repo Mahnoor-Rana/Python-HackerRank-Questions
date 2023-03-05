@@ -1,4 +1,4 @@
-#   Write 
+#   Write a program to captalize first char of word
 
 import math
 import os

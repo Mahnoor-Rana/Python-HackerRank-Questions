@@ -1,4 +1,5 @@
-
+# You are given a string S and width W.
+# Your task is to wrap the string into a paragraph of width W.
 
 import textwrap
 

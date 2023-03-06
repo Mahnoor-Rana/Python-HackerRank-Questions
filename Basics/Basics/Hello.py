@@ -1,2 +1,2 @@
 #Print something
-image.png
+print("Hello, World!")

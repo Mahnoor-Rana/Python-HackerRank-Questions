@@ -12,5 +12,5 @@ def reSub(line):
     return line
 for i in range(n):
     line =input()
-    line = reSub()
+    line = reSub(line)
     print(line)

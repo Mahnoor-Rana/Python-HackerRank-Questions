@@ -1,4 +1,4 @@
-
+# Write a program to play a minion game
 
 def minion_game(string):
     # your code goes here

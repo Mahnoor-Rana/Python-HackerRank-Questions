@@ -1,0 +1,2 @@
+#Print something
+image.png

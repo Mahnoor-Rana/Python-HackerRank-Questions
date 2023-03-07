@@ -3,5 +3,5 @@ if __name__ == '__main__':
 i = 0
 if n >= i:
     for num in range(0 , n ):
-        print(num**2)
+        print(pow(num,2))
         

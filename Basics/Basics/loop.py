@@ -4,7 +4,7 @@ if __name__ == '__main__':
 i = 0
 if n >= i:
     for num in range(0,n):
-        print(math.square(num))
+        print(pow()
     # for num in range(0 , n ):
     #     print(num**2)
         

@@ -6,4 +6,4 @@ BC = int(input())
 
 angleC = atan(AB/BC)
 deg = degrees(angleC)
-print((round(degrees(angleC))),chr(176),sep='') 
+print((round(deg)),chr(176),sep='') 

@@ -5,5 +5,4 @@ AB = int(input())
 BC = int(input())
 
 angleC = atan(AB/BC)
-deg = degrees
 print((round(degrees(angleC))),chr(176),sep='') 

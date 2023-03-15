@@ -2,5 +2,6 @@
 a= int(input())
 b = int(input())
 c = int(input())
-print(pow(a,b))
+d = pow(a,b)
+print(d)
 print(pow(a,b,c))

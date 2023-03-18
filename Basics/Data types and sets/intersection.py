@@ -2,5 +2,5 @@
 n = int(input())
 s = set(input().split())
 m = int(input())
-s = s.intersection(input().split())
+s = s.union(input().split())
 print(len(s))

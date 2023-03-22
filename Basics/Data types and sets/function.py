@@ -9,3 +9,6 @@ if __name__ == '__main__':
     first_name = input().split()
     last_name = input().split()
     print_full_name(first_name, last_name)
+
+def name(f,l):
+    print('hey'+f,l)

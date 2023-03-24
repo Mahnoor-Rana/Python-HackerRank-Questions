@@ -1,6 +1,8 @@
 def average(array):
     arr = set(array)
     return sum(arr)/len(arr)
+    arr = set(array)
+    return sum(arr)/len(arr)
     
     
 

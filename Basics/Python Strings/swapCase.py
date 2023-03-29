@@ -3,7 +3,7 @@
 # string s: the string to modify
 
 def swap_case(s):
-    s_1=""
+    s_1="abc"
     for char in s:
         if char.islower():
             s_1 += char.upper()

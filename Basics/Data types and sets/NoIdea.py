@@ -1,5 +1,3 @@
-
-
 n = map(int, input().split())
 m = map(int(input().split()))
 x = list(map(int, input().split()))

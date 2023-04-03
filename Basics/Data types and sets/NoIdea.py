@@ -1,5 +1,4 @@
 n = map(int, input().split())
-m = map(int(input().split()))
 x = list(map(int, input().split()))
 a = set(map(int, input().split()))
 b = set(map(int, input().split()))

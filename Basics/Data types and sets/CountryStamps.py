@@ -4,7 +4,7 @@
 n = int(input())
 unique_name= set()
 for i in range(n):
-    names = str(input().split())
+    names = input().strip()
     unique_name.add(names)
 count = len(unique_name)
 print(count)

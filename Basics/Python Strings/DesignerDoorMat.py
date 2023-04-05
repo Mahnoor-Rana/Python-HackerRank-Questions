@@ -1,7 +1,7 @@
 # Design the mat
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-n,m = map(int, input().split())
+n= map(int, input().split())
 m = map(int,input().split())
 for i in range(n):
     if i < n//2:

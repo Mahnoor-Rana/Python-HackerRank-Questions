@@ -14,5 +14,5 @@ if __name__ == '__main__':
     students = sorted(students)
     
     for name, score in students:
-        if score == scores[1]:
+        if score == scores[1]:bhbhbb
             print(name)

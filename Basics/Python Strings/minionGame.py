@@ -2,7 +2,7 @@
 
 def minion_game(string):
     # your code goes here
-    vowels = 'AEIOU'
+    vowels = 'AEIOU'or 'aeiou'
     s_score = 0
     k_score = 0
     n = len(string)

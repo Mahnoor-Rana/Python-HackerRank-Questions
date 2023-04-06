@@ -2,7 +2,7 @@
 
 def minion_game(string):
     # your code goes here
-    vowels = 'AEIOU'or 'aeiou'
+    vowels = 'AEIOU'or 'aeiou'# we can also do this
     s_score = 0
     k_score = 0
     n = len(string)
@@ -20,4 +20,4 @@ def minion_game(string):
 
 if __name__ == '__main__':
     s = input()
-    minion_game(s)
+    minion_game(s)z

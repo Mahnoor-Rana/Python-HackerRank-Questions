@@ -2,12 +2,12 @@
 
 def minion_game(string):
     # your code goes here
-    v = 'AEIOU'
+    vowels = 'AEIOU'
     s_score = 0
     k_score = 0
     n = len(string)
     for i in range(n):
-        if string[i] in v:
+        if string[i] in vowels:
             k_score+= n-i
         else :
             s_score+=n-i

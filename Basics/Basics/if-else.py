@@ -4,10 +4,10 @@ import random
 import re
 import sys
 if __name__ == '__main__':
-    n = int(input().strip())
-    if n%2!=0:
+    m = int(input().split())
+    if m%2!=0:
         print("Weird")
-    elif n >=2 and n <= 5 or n > 20:
+    elif m >=2 and m <= 5 or m > 20:
         print("Not Weird")
     else:
         print("Weird")

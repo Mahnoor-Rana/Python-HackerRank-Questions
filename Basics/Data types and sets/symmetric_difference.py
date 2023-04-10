@@ -2,6 +2,6 @@
 
 n,m= int(input())
 s = set(input().split())
-m = int(input())
-s = s.symmetric_difference(input().split())
+#m = int(input())
+s = s.symmetric_difference(input().split()) # s.symmetric_difference(n)
 print(len(s))

@@ -13,8 +13,8 @@
 # The total number of tourists or the total number of groups of families is not known to you.
 # You only know the value of  K and the room number list.
 from collections import Counter
-#K = int(input())
-n, K= list(map(int,input().split()))
+K = int(input())
+n = list(map(int,input().split())) # n, K
 
 count = Counter(n)
 unique = [k for k ,v in count.items() if v ==1]

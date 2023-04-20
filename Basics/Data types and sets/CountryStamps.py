@@ -2,7 +2,7 @@
 #Find the total number of distinct country stamps.
 
 n = int(input())
-unique_name= set(n)
+unique_name= set()
 for i in range(n):
     names = input().strip()
     unique_name.add(names)

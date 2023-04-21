@@ -1,5 +1,5 @@
 import math
-a = int(input())
+a , b = int(input())
 c = a%b
 d = a//b
 print(c)

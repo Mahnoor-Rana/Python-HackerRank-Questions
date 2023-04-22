@@ -4,5 +4,5 @@ from math import atan, degrees
 a = int(input())
 b = int(input())
 
-angleC = atan(AB/BC)
+angleC = atan(a/b)
 print((round(degrees(angleC))),chr(176),sep='') 

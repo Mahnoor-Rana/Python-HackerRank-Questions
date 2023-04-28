@@ -9,5 +9,5 @@ if __name__ == '__main__':
     query_name = int(input())
     scores = student_marks[query_name]
     avg = sum(scores)/len(scores)
-    print("{:.2f}".format(avg))
+    print("{:.3f}".format(avg))
     

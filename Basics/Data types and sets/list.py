@@ -1,7 +1,7 @@
 if __name__ == '__main__':
-    N = int(input())
+    n = int(input())
     lst = []
-    for i in range(N):
+    for i in range(n):
         command = input().split()
 
         if command[0] == 'insert':

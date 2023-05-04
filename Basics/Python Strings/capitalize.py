@@ -14,7 +14,7 @@ def solve(s):
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    s = input()
+    s = input() # str(input())
 
     result = solve(s)
 
